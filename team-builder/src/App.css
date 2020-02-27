@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+html,
+body,
+.App,
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  background-image: linear-gradient(-315deg, #7afcff 40%,#41b6d7 100%);
+  padding: 32px;
+  letter-spacing: 2px
+}
+
+
+h1{
+  margin: 10rem 0 2rem 0 ;
+  color: coral;
+  font-size: 5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form{
+  margin: 2rem 5rem 5rem 5rem;
+  color: goldenrod;
+}
+
+input, ::placeholder{
+  margin: 1rem;
+  color:blueviolet;
+  border-radius: 10px;
+  padding: 20px 40px 10px 40px;
+}
+
+::placeholder{
+  font-size: 1rem;
+}
+
+label{
+  font-size: 5rem;
+}
+
+select{
+  padding: 2%;
+  background-color: sandybrown;
+  border-radius: 10px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+}
+
+.Submit {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
